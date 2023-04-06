@@ -1,0 +1,35 @@
+/* Put this code in your CSS file */
+
+/* The div container */
+// .qrcodeImage {
+//     display: flex;
+//     flex: 1;
+//   }
+  
+//   /* Add custom styles here */
+//   .center {
+//     display: flex;
+//     flex: 1;
+//     justify-content: center;
+//   } 
+
+
+.btn-upload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .btn-upload input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    max-width: 100%;
+    height: 100%;
+    display: block;
+  }
+  img {
+    padding: 8px 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
